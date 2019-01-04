@@ -12,7 +12,7 @@ def main():
     img = cv2.imread(imgpath,0) #image read
     print(img)# print image in number format
     print(type(img))#type(object) for type of image 
-    print(img.dtype)#object.dtype for print data type
+    print(img.dtype)#object.dtype for print data type #ans ""uint8"" stands for unsinged integer for 8 dimension 
     print(img.shape)#object.shape for print shape of the image
     print(img.ndim)#object.ndim for total dimension persent in image
     print(img.size)#object.size print the pixel size of image 
